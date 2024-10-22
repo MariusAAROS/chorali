@@ -33,7 +33,7 @@
 
 
 # conda activate chorali
-conda activate maali
+source ./ilp_sem_venv/bin/activate
 
 set -o errexit
 set -o pipefail
