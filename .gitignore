@@ -1,3 +1,9 @@
 data/08.files/
 ilp_sem_venv/
 splitta/
+glpk-4.35
+data/multi-news-original-20241022T112859Z-001
+
+data/tac2008/*
+data/duc2004/*
+data/embeddings/*

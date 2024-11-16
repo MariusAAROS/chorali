@@ -29,7 +29,7 @@ def parse_options():
     parser = OptionParser(usage=usage)
 
     parser.add_option('-t', '--task', dest='task', type='str',
-                      help='tasks: u09, u08, u07, m07, m06, m05, chorali')
+                      help='tasks: u09, u08, u07, m07, m06, m05, chorali, d04')
     parser.add_option('--docpath', dest='docpath', type='str',
                       help='source document path')
     parser.add_option('--manpath', dest='manpath', type='str',
@@ -58,7 +58,7 @@ def parse_options():
     (options, args) = parser.parse_args()
 
     ## setup a Task instance
-    if not options.task in ['u09', 'u08', 'u07', 'm07', 'm06', 'm05', 'u04', 'chorali']:
+    if not options.task in ['u09', 'u08', 'u07', 'm07', 'm06', 'm05', 'u04', 'chorali', 'd04']:
         parser.error('unrecognized task [%s], use --help to get a list of valid tasks' %options.task)
 
     if not options.length:
