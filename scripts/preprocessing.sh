@@ -15,7 +15,8 @@ trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
 
 
 
-DOCS=${DUC}/data/UpdateSumm${DUC_NUMBER}_test_docs_files/
+#DOCS=${DUC}/data/UpdateSumm${DUC_NUMBER}_test_docs_files/
+DOCS=${DUC}/
 REF=${DUC}/results/UpdateSumm${DUC_NUMBER}_eval/ROUGE/models/
 OUTPUT=${ICSISUMM}/output/d${DUC_NUMBER}/
 
