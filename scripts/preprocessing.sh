@@ -17,8 +17,7 @@ trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
 
 #DOCS=${DUC}/data/UpdateSumm${DUC_NUMBER}_test_docs_files/
 DOCS=${DUC}/task5/duc2004_task5_docs/docs
-#REF=${DUC}/results/UpdateSumm${DUC_NUMBER}_eval/ROUGE/models/
-REF=${DUC}/task5/duc2004_task5.topicsets/
+REF=${DUC}/results/UpdateSumm${DUC_NUMBER}_eval/ROUGE/models/
 OUTPUT=${ICSISUMM}/output/d${DUC_NUMBER}/
 
 echo "summarize.sh. Will write to ${OUTPUT}"
