@@ -32,13 +32,13 @@ esac
 # export TAC=/scratch_global/gael/tac2008
 export TAC=${DIR}/data/tac2008
 export MN=${DIR}/data/data/multi-news-original-20241022T112859Z-001
-export DUC=${DIR}/data/duc2004/
+export DUC=${DIR}/data/duc2004
 ls ${TAC} >& /dev/null
 
 # DATA: Directory for working on TAC data
 # export DATA=/scratch_global/gael/tac2008-data
 #export DATA=${DIR}/data/tac2008
-DATA=${DIR}/data/duc2004/
+DATA=${DIR}/data/duc2004
 ls ${DATA} >& /dev/null
 export DATA=${DATA}
 
